@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    width: 720px;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url(/images/torshov.jpg);
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 119px auto;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #ffffff;
+    background-color: #1D3557;
+    border-radius: 10px;
+    line-height: 36px;
+    padding: 4px 12px;
+    width: 225px;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 4px;
+    color: #ffffff;
+    background-color: #457B9D;
+    border-radius: 10px;
+    width: 412px;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 38px 24px;   
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 54px;
+}
+
+#three-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.activities-image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.weight-700 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.weight-400 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.image-rounded {
+    width: 198px;
+}
+
+.margin-right {
+    margin-right: 32px;
+}
+
+#guide-section {
+    padding: 50px 160px;
+}
+
+#guide-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 24px 12px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
+}
+
+#guide-text {
+    width: 190px;
+    color: #1D3557;
+}
+
+#guide-image {
+    width: 180px;
+    border-radius: 10px;
+}
